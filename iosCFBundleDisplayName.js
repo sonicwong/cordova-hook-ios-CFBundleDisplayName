@@ -14,7 +14,7 @@ const CFBundleDisplayName = 'YOUR APP LABEL';
 
 module.exports = function(context) {
 
-  // Make sure android platform is part of build
+  // Make sure ios platform is part of build
   if (!context.opts.platforms.includes('ios')) return;
 
   // read app name from config.xml
